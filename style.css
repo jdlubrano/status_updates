@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
+html, body {
+  height: 100%;
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, rgba(38, 87, 120, 0.25), white, rgba(38, 87, 120, 0.25)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left top, rgba(38, 87, 120, 0.25), white, rgba(38, 87, 120, 0.25)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left top, rgba(38, 87, 120, 0.25), white, rgba(38, 87, 120, 0.25)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left top, rgba(38, 87, 120, 0.25), white, rgba(38, 87, 120, 0.25)); /* Standard syntax */
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  font-family: 'Muli', sans-serif;
+  color: #333;
+}
+
+.centered {
+  text-align: center;
+}
+
+.site-title {
+  border-bottom: 2px solid rgba(38, 87, 120, 0.25);
+}
+
+.status-container {
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 0.25em;
+  border: 2px solid rgba(38, 87, 120, 0.25);
+  background: white;
+}
+
+.status-details-container {
+  margin: 0.5em auto;
+}
+
+.status-controls-container {
+  text-align: right;
+}
+
+.primary-button {
+  color: white;
+  background: rgba(38, 87, 120, 0.75);
+}
