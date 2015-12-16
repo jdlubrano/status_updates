@@ -27,6 +27,7 @@ html, button, input, select, textarea,
   min-height: 300px;
   position: relative;
   overflow: hidden;
+  margin-top: 1em;
 }
 
 .status-display .status-container {
@@ -34,22 +35,17 @@ html, button, input, select, textarea,
   box-sizing: border-box;
   display: inline-block;
   padding: 1em;
-  margin-top: 1em;
   border-radius: 0.25em;
   border: 2px solid rgba(38, 87, 120, 0.25);
   background: white;
   width: 100%;
 }
 
-#statusContainerPrev {
+.status-container.prev {
   left: -100%;
 }
 
-#statusContainerCurrent {
-
-}
-
-#statusContainerNext {
+.status-container.next {
   left: 100%;
 }
 
