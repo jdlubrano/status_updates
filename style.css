@@ -23,12 +23,34 @@ html, button, input, select, textarea,
   border-bottom: 2px solid rgba(38, 87, 120, 0.25);
 }
 
-.status-container {
+.status-display {
+  min-height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.status-display .status-container {
+  position: absolute;
+  box-sizing: border-box;
+  display: inline-block;
   padding: 1em;
   margin-top: 1em;
   border-radius: 0.25em;
   border: 2px solid rgba(38, 87, 120, 0.25);
   background: white;
+  width: 100%;
+}
+
+#statusContainerPrev {
+  left: -100%;
+}
+
+#statusContainerCurrent {
+
+}
+
+#statusContainerNext {
+  left: 100%;
 }
 
 .status-details-container {
